@@ -1,7 +1,7 @@
 {
     "name": "slince/shipment-tracking-ems",
     "keywords": ["shipment", "E邮宝", "Epacket", "E包裹", "E特快", "国际EMS"],
-    "description": "A flexible and shipment tracking library for Kuaidi100.",
+    "description": "A flexible and shipment tracking library for E邮宝、E包裹、E特快、国际EMS.",
     "license": "MIT",
     "authors": [
         {
