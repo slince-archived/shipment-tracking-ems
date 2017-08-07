@@ -23,6 +23,13 @@ class EMSTrackerTest extends TestCase
         return $tracker;
     }
 
+    public function testVersion()
+    {
+        $this->assertEquals('international_eub_us_1.1', EMSTracker::getVersion());
+        EMSTracker::setVersion('foo');
+        $this->assertEquals('foo', EMSTracker::getVersion());
+    }
+
     public function testSetter()
     {
         $tracker = new EMSTracker('foo', 'en');
